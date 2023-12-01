@@ -2,6 +2,22 @@
 title: Lorem Ipsum
 description: description
 date: 2023-12-01 08:41:13
-image: assets/images/image.png
+image: /assets/images/image.png
 tags: [Typescript]
 ---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec gravida leo. Nam congue quis odio nec iaculis. Sed tortor justo, pharetra ac rutrum at, hendrerit id risus. Fusce neque lacus, placerat eget pharetra et, volutpat vel eros. Integer sodales ex eget augue scelerisque molestie. Mauris ligula ex, scelerisque sed neque ac, rhoncus pharetra enim. Morbi eu placerat dui. Aliquam erat volutpat.
+
+Nam nibh nunc, aliquam sed est et, tempor suscipit elit. Nam sit amet augue ac metus molestie vehicula. Sed congue nisi tortor, placerat interdum enim aliquam ut. Aenean accumsan ex quis sagittis pharetra. Praesent elementum enim quis metus maximus, vel convallis tellus accumsan. Proin eleifend viverra lectus eu feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis sit amet aliquet nulla. Curabitur gravida egestas nulla et dictum. Mauris et sagittis ante. Nullam turpis augue, eleifend laoreet augue sit amet, laoreet pellentesque lectus. Fusce faucibus lectus nec mollis convallis.
+
+```typescript
+function double(a: unknown){
+  if (typeof a === 'number'){
+    return `Resultado = ${a * 2}`;
+  }
+  throw new Error(
+    `Erro - Não foi possível calcular o dobro do parametro do tipo ${typeof a}`
+  );
+  
+} 
+```
